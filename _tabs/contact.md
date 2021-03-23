@@ -1,11 +1,7 @@
 ---
 title: Contact
-
-# The Research page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
+icon: fas fa-envelope
+order: 4
 ---
 
 ### **Email:**
