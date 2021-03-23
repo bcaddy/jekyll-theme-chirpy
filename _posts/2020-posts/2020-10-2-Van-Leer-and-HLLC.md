@@ -32,12 +32,12 @@ MHD detailed in Stone & Gardiner 2009.
 
 Currently it is running and giving broadly correct results but is way too diffusive and I'm not sure why. You can see in the first video how clear the shock is using the CTU algorithm. In the second video it's significantly more diffuse and I'm not sure why. Both are using piecewise linear methods to compute the interface states.
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2020-post-assets/08-August/Sod-PLM-MC.mp4">
 </video>
 *The Sod Shock Tube using a CTU algorithm and PLM reconstruction*
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2020-post-assets/10-October/Sod-VL-PLM.mp4">
 </video>
 *The Sod Shock Tube using a Van Leer algorithm and PLM reconstruction*

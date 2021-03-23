@@ -31,7 +31,7 @@ main program you make a pointer to point at the base class type and during
 setup/construction you allocate that pointer to point at the specific
 class/solver you want to use. It's surprisingly elegant and easily scalable.
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2020-post-assets/10-October/Sod-HLLC.mp4">
 </video>
 *A Sod shock tube problem solved using the new HLLC solver along with a second order Van Leer integrator*

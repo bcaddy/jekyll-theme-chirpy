@@ -38,19 +38,18 @@ still not performing full MHD simulations properly.
 
 The Sod shock tube running in the MHD simulation
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2021-post-assets/03-March/2021-03-12-SodShockTube.mp4">
 </video>
 
-
 The current results of the Brio & Wu shocktube: the first plot is just the first nine time steps and the second is the first ~550 time steps
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2021-post-assets/03-March/2021-03-12-BWShockTube-short.mp4">
 </video>
 
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2021-post-assets/03-March/2021-03-12-BWShockTube-long.mp4">
 </video>
 

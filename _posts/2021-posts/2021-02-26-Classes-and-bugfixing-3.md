@@ -25,7 +25,7 @@ significant errors that are likely in the velocity/momentum calculations and
 maybe in the boundary conditions. The current results of the Brio & Wu shocktube
 are below,
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2021-post-assets/02-February/2021-02-26-BWShockTube.mp4">
 </video>
 

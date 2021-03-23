@@ -37,6 +37,6 @@ integrator. Here's what I accomplished this week
 
 The current results of the Brio & Wu shocktube are below,
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2021-post-assets/03-March/2021-03-05-BWShockTube.mp4">
 </video>

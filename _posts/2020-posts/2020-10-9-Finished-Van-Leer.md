@@ -44,7 +44,7 @@ Fixing these two issues and changing the resolution and CFL number to more
 realistic values (1000 cells and 0.4) fixed all the issues I was having as you
 can see in the plot below.
 
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2020-post-assets/10-October/Sod-VL-PLM-Corrected.mp4">
 </video>
 *The Sod Shock Tube using a Van Leer algorithm and PLM reconstruction*

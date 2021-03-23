@@ -27,7 +27,7 @@ ton of progress; the wavespeeds are correct and that's all I know so far.
 
 Here's my current results from running the Brio and Wu shock tube. You can see
 the immediate issue in what appears to be the $R^{**}$ state.
-<video muted autoplay controls>
+<video muted autoplay controls style="max-width:100%; height:auto">
     <source type="video/mp4" src="/assets/img/2021-post-assets/02-February/2021-02-12-BWShockTube.mp4">
 </video>
 
