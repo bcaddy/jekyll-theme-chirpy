@@ -15,7 +15,7 @@ if [[ $1 == "run" ]]; then
     ${REPO_ROOT}/tools/run.sh -r
 
 elif [[ $1 == "test" ]]; then
-    ${REPO_ROOT}/tools/build.sh
+    JEKYLL_ENV=production bundle exec jekyll b
     ${REPO_ROOT}/tools/test.sh
     jekyll clean
 
