@@ -1,7 +1,7 @@
 ---
 title:      Classes and Bugfixing 6    # Title
 author:     Robert Caddy               # Author Name
-date:       2021-03-29 16:00:00 -0400  # Date
+date:       2021-03-19 16:00:00 -0400  # Date
 categories: [MHD, Coursework]          # Catagories, no more than 2
 tags:       [Constrained Transport, Astronomical Techniques, Bugs]  # Tags, any number
 pin:        false                      # Should this post be pinned?
