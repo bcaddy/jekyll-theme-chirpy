@@ -11,7 +11,7 @@ cd "${0%/*}"  # cd to website directory
 REPO_ROOT=$(git rev-parse --show-toplevel)
 
 if [[ $1 == "run" ]]; then
-    # Run the website with auto update one
+    # Run the website with auto update on
     ${REPO_ROOT}/tools/run.sh -r
 
 elif [[ $1 == "test" ]]; then
