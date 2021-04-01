@@ -34,7 +34,10 @@ the wave, \\( A \\) is the amplitude of the wave/perturbation, \\( R_k \\) is
 the right eigenvector and depends on the wave, and \\( x \\) is the position in
 space. Magnetic fields will have to be implemented slightly differently than the
 other components because they're at slightly different positions (cell faces
-rather than centers). Here are the values of the parameters
+rather than centers). \\( R_k \\) is in conserved variables with the order
+\\( \left( \rho, \rho v_1, \rho v_2, \rho v_3, B_1, B_2, B_3, E \right) \\)
+
+Here are the values of the parameters
 
 $$
     A = 10^{-6}
