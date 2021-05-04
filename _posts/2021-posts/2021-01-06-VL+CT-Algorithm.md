@@ -135,8 +135,8 @@ image in this section for more details on derivatives.
 $$
     \begin{aligned}
         \mathcal{E}_{z, i-1/2, j-1/2, k} = \frac{1}{4} \left( \mathcal{E}_{z, i-1/2, j, k} + \mathcal{E}_{z, i-1/2, j-1, k} + \mathcal{E}_{z, i, j-1/2, k} + \mathcal{E}_{z, i-1, j-1/2, k}\right) \\
-        + \frac{\delta y}{8} \left( \left( \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i-1/2, j-1/4, k} - \left(  \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i-1/2, j-3/4, k} \right) \\
-        + \frac{\delta x}{8} \left( \left( \frac{\partial \mathcal{E}_z }{\partial x} \right)_{i-1/4, j-1/2, k} - \left(  \frac{\partial \mathcal{E}_z }{\partial x} \right)_{i-3/4, j-1/2, k} \right)
+        + \frac{\delta y}{8} \left( \left( \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i-1/2, j-1/4, k} + \left(  \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i-1/2, j-3/4, k} \right) \\
+        + \frac{\delta x}{8} \left( \left( \frac{\partial \mathcal{E}_z }{\partial x} \right)_{i-1/4, j-1/2, k} + \left(  \frac{\partial \mathcal{E}_z }{\partial x} \right)_{i-3/4, j-1/2, k} \right)
     \end{aligned}
 $$
 
