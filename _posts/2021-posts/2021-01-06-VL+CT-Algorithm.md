@@ -130,11 +130,17 @@ $$
 Example for computing the CT electric field in the \\( z \\)-direction. The
 other direction can be computed by just substituting out the \\( z \\) index
 with \\( x \\) or \\( y \\) and changing the derivatives appropriately, see the
-image in this section for more details on derivatives.
+image in this section for more details on derivatives. The following three
+equations are from Stone & Gardiner 2009, equations 22-24. In the original paper
+there are multiple sign errors which have been fixed in the document.
 
 $$
     \begin{aligned}
-        \mathcal{E}_{z, i-1/2, j-1/2, k} = \frac{1}{4} \left( \mathcal{E}_{z, i-1/2, j, k} + \mathcal{E}_{z, i-1/2, j-1, k} + \mathcal{E}_{z, i, j-1/2, k} + \mathcal{E}_{z, i-1, j-1/2, k}\right) \\
+        \mathcal{E}_{z, i-1/2, j-1/2, k} = \frac{1}{4} \left(
+            - \mathcal{E}_{z, i-1/2, j, k}
+            + \mathcal{E}_{z, i, j-1/2, k}
+            - \mathcal{E}_{z, i-1/2, j-1, k}
+            + \mathcal{E}_{z, i-1, j-1/2, k}\right) \\
         + \frac{\delta y}{8} \left( \left( \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i-1/2, j-1/4, k} + \left(  \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i-1/2, j-3/4, k} \right) \\
         + \frac{\delta x}{8} \left( \left( \frac{\partial \mathcal{E}_z }{\partial x} \right)_{i-1/4, j-1/2, k} + \left(  \frac{\partial \mathcal{E}_z }{\partial x} \right)_{i-3/4, j-1/2, k} \right)
     \end{aligned}
@@ -161,7 +167,7 @@ Where, for example, the derivatives are given by
 
 $$
     \left( \frac{\partial \mathcal{E}_z }{\partial y} \right)_{i, j-1/4, k} =
-    2 \left( \frac{\mathcal{E}_{z,i,j,k}^{ref} - \mathcal{E}_{z,i,j-1/2,k}}{\delta y} \right).
+    2 \left( \frac{\mathcal{E}_{z,i,j-1/2,k} - \mathcal{E}_{z,i,j,k}^{ref}}{\delta y} \right).
 $$
 
 The easiest way to see how to compute these derivatives is with the following
