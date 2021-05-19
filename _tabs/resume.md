@@ -1,5 +1,5 @@
---
-title: Curriculum Vitae
+---
+title: Resume
 icon: fas fa-scroll
 order: 6
 ---

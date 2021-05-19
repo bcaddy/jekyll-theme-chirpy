@@ -1,4 +1,4 @@
---
+---
 title: Curriculum Vitae
 icon: fas fa-scroll
 order: 5
