@@ -1,3 +1,8 @@
+# My Website
+This page hosts the source for my personal website. It is derived from the
+Chirpy Jekyll template whose original readme can be found below.
+
+
 # Chirpy
 
 Language: English | [简体中文](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/README.zh-CN.md)
